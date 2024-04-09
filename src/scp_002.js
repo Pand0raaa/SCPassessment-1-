@@ -3,7 +3,7 @@ import scp002Data from "./SCP002.json";
 import image from "./images/800px-SCP002.jpg";
 
 function Scp_002() {
-  {
+  
     const scp002 = scp002Data[0];
     return (
       <div className="container">
@@ -47,7 +47,7 @@ function Scp_002() {
         </div>
       </div>
     );
-  }
+  
 }
 
 export default Scp_002;

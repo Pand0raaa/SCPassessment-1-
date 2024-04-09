@@ -4,7 +4,7 @@ import image from "./images/SCP003.jpg";
 
 
 function Scp_003() {
-  {
+  
     const scp003 = scp003Data[0];
     return (
       <div className="container">
@@ -40,7 +40,7 @@ function Scp_003() {
         </div>
       </div>
     );
-  }
+  
 }
 
 export default Scp_003;
