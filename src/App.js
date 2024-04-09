@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Home from "./Scp_Home";
+import Home from "./scp_Home";
 import Scp_002 from "./Scp_002";
 import Scp_003 from "./Scp_003";
 import Scp_004 from "./Scp_004";
@@ -17,7 +17,7 @@ function App() {
         <foundation />
 
         <Routes>
-          <Route path="/Scp_Home" element={<Home />} />
+          <Route path="/scp_Home" element={<Home />} />
           <Route path="/Scp_002" element={<Scp_002 />} />
           <Route path="/Scp_003" element={<Scp_003 />} />
           <Route path="/Scp_004" element={<Scp_004 />} />
