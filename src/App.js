@@ -17,7 +17,7 @@ function App() {
         <foundation />
 
         <Routes>
-          <Route path="/scp_Home" element={<Home />} />
+          <Route path="/scp_HOME" element={<Home />} />
           <Route path="/SCP_002" element={<Scp_002 />} />
           <Route path="/SCP_003" element={<Scp_003 />} />
           <Route path="/SCP_004" element={<Scp_004 />} />
